@@ -8,8 +8,15 @@
 </head>
 <body>
 
+<form action="postvget.php" method="post">
+Password: <input type="password" name="password">
+<input type="submit">
+</form>
+<br><br> 
+
 <?php
 error_reporting(E_ERROR | E_PARSE);
+echo $_POST["password"]
 
 
 ?>
